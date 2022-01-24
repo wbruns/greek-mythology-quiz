@@ -17,7 +17,7 @@ var quizStart = function() {
   
   // while loop to account for remaining time
   while (timeLeft > 0) {
-    debugger;
+    // debugger;
     // loop over questions
     for (i = 0; i < quizQA.questions.length; i++) {
       $("#quiz-content").append("<h2>" + quizQA.questions[i] + "</h2>");
